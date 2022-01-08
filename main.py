@@ -1,6 +1,7 @@
 '''
 Flipkart Price Scrapping and Notify when
 Price will decrease in our computer
+Please install the packages 
 '''
 import requests
 from bs4 import BeautifulSoup
