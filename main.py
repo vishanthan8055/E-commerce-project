@@ -1,3 +1,7 @@
+'''
+Flipkart Price Scrapping and Notify when
+Price will decrease in our computer
+'''
 import requests
 from bs4 import BeautifulSoup
 import time
