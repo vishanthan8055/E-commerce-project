@@ -3,6 +3,7 @@ from bs4 import BeautifulSoup
 import time
 from notifypy import Notify
 
+
 product_url = input("Enter the Product Url:")
 price_list = []
 class_text = "_30jeq3 _16Jk6d"
@@ -27,13 +28,11 @@ def price_decrease_check(price_list):
 count = 1
 
 
-
-
 def notify():
     notification = Notify()
     notification.title = "Cool Title"
     notification.message = "Even cooler message."
-    notification.audio = "noti.wav"
+    #notification.audio = "noti.wav"
     notification.send()
 
 while True:
